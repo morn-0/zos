@@ -6,6 +6,8 @@ mod bsp;
 mod lang_item;
 
 fn kernel_init() -> ! {
+    write_str("hello, zos!");
+
     loop {}
 }
 
